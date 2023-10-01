@@ -4,9 +4,6 @@ import Link from 'next/link'
 import { useRouter } from 'next/navigation'
 import { signIn } from 'next-auth/react'
 
-
-
-
 const page = () => {
     const router = useRouter()
     const [user, setUser] = useState({

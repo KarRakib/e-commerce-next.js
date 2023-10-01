@@ -12,7 +12,7 @@ const Navbar = () => {
     const [showProfile, setShowProfile] = useState(false)
     const [showNav, setShowNav] = useState(false)
     const {data:session} = useSession()
-    // console.log(session?.user)
+    console.log(session?.user)
 
     const SignOut = () => {
         if(session && session.user){
